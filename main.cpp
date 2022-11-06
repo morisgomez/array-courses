@@ -11,7 +11,7 @@ int main() {
     for (counter = 0; counter < courses; counter++) //loop runs 5 times.
     {
         cout << "what is the grade for course " << counter + 1 << " ? "; //we add 1 to get the course #. notice how we do not reassign here.
-        cin >> grade[counter]; //for course 1, we assign input to index 0. course # will always be 1 head of indexes.
+        cin >> grade[counter]; //for course 1, we assign input to index 0. course # will always be 1 ahead of index.
     }
     
     //loop prints out indexes from array.
